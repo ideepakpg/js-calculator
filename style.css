@@ -1,2 +1,23 @@
-﻿body {
+﻿#main-body{
+    display:grid;
+}
+#calculator {
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    align-self:center;
+    justify-self:center;
+}
+#output {
+    pointer-events: none;
+    width: 240px;
+    height: 100px;
+    margin-left: 25px;
+    margin-top: 14px;
+}
+#btn {
+    width: 40px;
+    height: 37px;
+    margin-top: 13px;
+    margin-left: 25px;
 }
